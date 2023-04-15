@@ -9,3 +9,7 @@ O [ONE](https://www.oracle.com/br/education/oracle-next-education/) é um progra
 O curso é 100% online e totalmente gratuito, feito para quem não teve acesso à educação de qualidade e deseja transformar a sua realidade social.
 
 O programa abre as inscrições 3 vezes ao ano. Cada turma cumpre uma jornada de 6 meses, divididos em 4 trilhas disponibilizadas na plataforma – ao todo são mais de 560 horas de conteúdo.
+
+## Links Úteis
+- [UNICODE TABLE](https://old.unicode-table.com/pt/) : Código Unicode para utilizar no HTML (Utilizado a forma 'entidade')
+- [MAYERWEB.COM](https://meyerweb.com/eric/tools/css/reset/) : Reset CSS para "zerar" as configurações de estilos padrão dos navegadores

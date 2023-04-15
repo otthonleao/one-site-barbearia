@@ -1,0 +1,94 @@
+header {
+	background: #bbb;
+	padding: 20px 0; /* ESPAÇAMENTO INTERNO PARA QUE O CONTEÚDO NÃO CHEGUE AO TOPO DA CAIXA */
+}
+
+/* CENTRALIZAR O HEADER NO CENTRO DA PÁGINA AUTOMATICAMENTE DE ACORDO COM O TAMAMHO DA TELA */
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* POSICIONANDO A NAV DO LADO DIREITO */
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px; /* ESPAÇAMENTO EXTERNO A ESQUERDA */
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none; /* RETIRAR O SUBLINHADO */
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* QUANDO O MOUSE ESTIVER EM CIMA */
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000; /* espessura, tipo, cor */
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 35px;
+}
+
+/* QUANDO ESTIVER SEGURANDO O BOTÃO DO MOUSE */
+.produtos li:active {
+	border-color: #C78C19;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url(/images/bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #fff;
+}
+
