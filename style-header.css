@@ -1,0 +1,31 @@
+header {
+	background: #bbb;
+	padding: 20px 0; /* ESPAÇAMENTO INTERNO PARA QUE O CONTEÚDO NÃO CHEGUE AO TOPO DA CAIXA */
+}
+
+/* CENTRALIZAR O HEADER NO CENTRO DA PÁGINA AUTOMATICAMENTE DE ACORDO COM O TAMAMHO DA TELA */
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* POSICIONANDO A NAV DO LADO DIREITO */
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px; /* ESPAÇAMENTO EXTERNO A ESQUERDA */
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none; /* RETIRAR O SUBLINHADO */
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
