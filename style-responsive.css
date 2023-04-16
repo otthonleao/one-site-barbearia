@@ -1,0 +1,53 @@
+/* MEDIA QUERY
+** É perguntar ao navegador qual é o tamanho da tela em questão e, se for aquele que desejamos, entregaremos o estilo correto.
+** Para realizar isso, utilizaremos o @media, com o valor do tipo de tela screen e a pesquisa.
+*/
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .mapa-descricao, .principal-contato {
+		width: auto;
+		padding: 20px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.produtos li {
+		display: block;
+		margin: 0 0 20px 65px;
+	}
+
+	.input-padrao {
+		width: 93%;
+	}
+
+	.principal-contato select {
+		width: 50%;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.principal-contato table {
+		margin-left: 90px;
+	}
+
+	.enviar {
+		width: 100%;
+	}
+
+}

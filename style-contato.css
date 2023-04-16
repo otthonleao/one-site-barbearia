@@ -26,6 +26,17 @@ form label, form legend {
 
 .checkbox {
 	margin: 20px 0;
+	
+}
+
+.horario {
+	padding-top: 0.5em;
+}
+
+.principal-contato select {
+	width: 25%;
+	font-size: 20px;
+	padding: 10px;
 }
 
 .enviar {

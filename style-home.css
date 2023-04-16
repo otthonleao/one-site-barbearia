@@ -52,12 +52,13 @@ body {
 	background: linear-gradient(#fefefe, #888);
 }
 
-.mapa p {
+.mapa-descricao {
 	width: 940px;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 2em;
 }
+
 
 .mapa-conteudo {
 	width: 940px;
