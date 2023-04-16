@@ -1,33 +1,110 @@
-#banner {
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
 	width: 100%;
 }
 
 .titulo-principal {
-	padding-left: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 1em;
+	clear: left; /* LIMPA O FLOAT */
 }
 
-.titulo-centralizado {
-	text-align: center;
+.titulo-principal:before {
+	content: "[ "
+}
+
+.titulo-principal:after {
+	content: " ]"
 }
 
 .principal {
-	background: #ccc;
-	padding: 30px;
+	padding: 3em 0;
+	background: #fefefe;
+	width: 940px;
+	margin: 0 auto;
 }
 
-p {
-	text-align: center;
+.principal p {
+	margin-bottom: 1em;
 }
 
-.beneficios {
-	background: #fff;
-	padding: 20px;
+.principal strong {
+	font-weight: bold;
 }
 
-.itens {
+.principal em {
 	font-style: italic;
 }
 
+.principal img {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#fefefe, #888);
+}
+
+.mapa p {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	background: #888;
+	padding: 20px;
+	padding: 3em;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🌟 ";
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 .imagem-beneficios {
-	width: 50%;
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px #000; /* SOMBRA DO ELEMENTO */
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
